@@ -165,3 +165,11 @@ footer nav a:hover{background:none;color:#fff}
 .tiles-4{grid-template-columns:repeat(4,1fr)}
 @media (max-width:1050px){.tiles-4{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:900px){.tiles-4{grid-template-columns:1fr}}
+.perks{background:var(--ink);color:#C9D4E3}
+.perks .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding-top:26px;padding-bottom:26px}
+.perk{display:flex;align-items:center;gap:14px}
+.perk-ic{flex:none;width:44px;height:44px;border-radius:12px;background:rgba(127,216,190,.14);color:var(--mint);display:grid;place-items:center}
+.perk b{display:block;color:#fff;font-size:1rem}
+.perk span{font-size:.88rem}
+@media (max-width:900px){.perks .wrap{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.perks .wrap{grid-template-columns:1fr}}
