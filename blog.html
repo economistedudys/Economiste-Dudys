@@ -3,53 +3,58 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Blog and podcast | Économiste Dudys</title>
-<meta name="description" content="Économiste Dudys: bookkeeping for small businesses, QuickBooks and Zoho Books training, and language lessons in English, Spanish, French and Haitian Creole.">
+<title>Blog and podcast | Economist Dudys</title>
+<meta name="description" content="Economist Dudys: remote bookkeeping, consulting, project management, and online training in QuickBooks, Zoho Books, Xero, Sage and NetSuite.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header><div class="bar">
-<a class="brand" href="index.html">Économiste <span>Dudys</span></a>
-<nav aria-label="Main menu">
+<a class="brand" href="index.html"><span class="mark">ED</span>Economist <b>Dudys</b></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
+<nav id="nav" aria-label="Main menu">
 <a href="index.html">Home</a>
 <a href="services.html">Services</a>
 <a href="blog.html" aria-current="page">Blog</a>
-<a href="contact.html">Contact</a>
+<a class="nav-cta" href="contact.html">Contact</a>
 </nav></div></header>
 <main>
-<div class="wrap page-head">
-  <h1>Blog and podcast</h1>
-  <p class="lead">Practical tips on bookkeeping, small business finances, accounting software and learning languages.</p>
-</div>
-<div class="wrap" style="padding-bottom:72px">
-  <div class="group">
-    <h2>Articles</h2>
-    <div class="post-list">
-      <a class="post" href="signs-you-need-a-bookkeeper.html">
-        <span class="date">October 2026</span>
-        <h3>5 signs your small business needs a bookkeeper</h3>
-        <p>If you recognize yourself in two or more of these, it may be time to get help with your books.</p>
-      </a>
-    </div>
+<div class="banner"><div class="ph"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=70" alt="Writing notes" loading="lazy" onerror="this.remove()"></div>
+  <div class="wrap">
+    <span class="eyebrow">Blog and podcast</span>
+    <h1>Insights and tips</h1>
+    <p class="lead">Practical advice on bookkeeping, small business finances, project management and accounting software.</p>
   </div>
-  <div class="group">
-    <h2>Podcast</h2>
-    <div class="post-list">
-      <div class="post soon">
-        <span class="date">Coming soon</span>
-        <h3>First episodes on the way</h3>
-        <p>Short conversations about money, business and languages. Check back soon.</p>
+</div>
+<section>
+  <div class="wrap">
+    <h2>Latest articles</h2>
+    <div class="posts">
+      <a class="tile post" href="signs-you-need-a-bookkeeper.html"><div class="ph"><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=70" alt="Calculator and receipts" loading="lazy" onerror="this.remove()"></div>
+        <div class="tile-body"><span class="date">October 2026</span><h3>5 signs your small business needs a bookkeeper</h3><p>Recognize two or more? It may be time to get help with your books.</p><span class="more">Read article →</span></div></a>
+      <div class="tile post soon"><div class="ph"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=70" alt="Financial charts" loading="lazy" onerror="this.remove()"></div>
+        <div class="tile-body"><span class="date">Coming soon</span><h3>QuickBooks Online vs Desktop: which one is right for you?</h3><p>A simple comparison to help you choose.</p></div></div>
+      <div class="tile post soon"><div class="ph"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=70" alt="Data dashboard" loading="lazy" onerror="this.remove()"></div>
+        <div class="tile-body"><span class="date">Coming soon</span><h3>Getting started with Xero in one afternoon</h3><p>The first settings and habits every new Xero user needs.</p></div></div>
+    </div>
+
+    <div class="pod"><div class="ph"><img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1000&q=70" alt="Podcast microphone" loading="lazy" onerror="this.remove()"></div>
+      <div class="pod-body">
+        <span class="badge">Podcast</span>
+        <h3>The Economist Dudys Podcast</h3>
+        <p>Short conversations about money, business and projects. First episodes coming soon.</p>
+        <a class="btn btn-green" href="contact.html">Get notified</a>
       </div>
     </div>
   </div>
-</div>
+</section>
 </main>
 <footer><div class="wrap">
-<span>© 2026 Économiste Dudys. Santiago de los Caballeros, Dominican Republic.</span>
-<span>Online sessions worldwide</span>
+<a class="brand" href="index.html"><span class="mark">ED</span>Economist Dudys</a>
+<nav aria-label="Footer"><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></nav>
+<span>© 2026 Economist Dudys. 100% remote, serving clients worldwide.</span>
 </div></footer>
 </body>
 </html>

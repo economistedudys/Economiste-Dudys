@@ -3,80 +3,111 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Services and training | Économiste Dudys</title>
-<meta name="description" content="Économiste Dudys: bookkeeping for small businesses, QuickBooks and Zoho Books training, and language lessons in English, Spanish, French and Haitian Creole.">
+<title>Services and training | Economist Dudys</title>
+<meta name="description" content="Economist Dudys: remote bookkeeping, consulting, project management, and online training in QuickBooks, Zoho Books, Xero, Sage and NetSuite.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header><div class="bar">
-<a class="brand" href="index.html">Économiste <span>Dudys</span></a>
-<nav aria-label="Main menu">
+<a class="brand" href="index.html"><span class="mark">ED</span>Economist <b>Dudys</b></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
+<nav id="nav" aria-label="Main menu">
 <a href="index.html">Home</a>
 <a href="services.html" aria-current="page">Services</a>
 <a href="blog.html">Blog</a>
-<a href="contact.html">Contact</a>
+<a class="nav-cta" href="contact.html">Contact</a>
 </nav></div></header>
 <main>
-<div class="wrap page-head">
-  <h1>Services and training</h1>
-  <p class="lead">Practical services for businesses, and hands-on training for individuals and teams. One-on-one or group sessions, online or in person.</p>
-</div>
-
-<div class="wrap">
-  <div class="group">
-    <h2>Bookkeeping for businesses</h2>
-    <p>I take care of your numbers so you can focus on running your business.</p>
-    <div class="grid">
-      <div class="card"><h3>Bookkeeping</h3><p>Recording transactions, organizing receipts and keeping your accounts up to date.</p></div>
-      <div class="card"><h3>Bank reconciliations</h3><p>Checking your statements and fixing discrepancies so your books are accurate.</p></div>
-      <div class="card"><h3>Payroll</h3><p>Processing salaries, deposits and pay adjustments.</p></div>
-      <div class="card"><h3>Analysis and budgeting</h3><p>Clear financial reports and budgets to help you make better decisions.</p></div>
-    </div>
-  </div>
-
-  <div class="group">
-    <h2>Accounting software training</h2>
-    <p>Learn your software step by step, using your own data.</p>
-    <div class="grid">
-      <div class="card"><span class="tag">Intuit</span><h3>QuickBooks Desktop</h3>
-        <ul><li>Company setup and preferences</li><li>Invoices, expenses and vendors</li><li>Reconciliations and reports</li></ul></div>
-      <div class="card"><span class="tag">Intuit</span><h3>QuickBooks Online</h3>
-        <ul><li>Getting around the interface</li><li>Bank feeds and categorization</li><li>Payroll, sales tax and financial statements</li></ul></div>
-      <div class="card"><span class="tag">Zoho</span><h3>Zoho Books</h3>
-        <ul><li>Setup and chart of accounts</li><li>Estimates, invoices and payments</li><li>Inventory tracking and reports</li></ul></div>
-    </div>
-  </div>
-
-  <div class="group">
-    <h2>Language lessons</h2>
-    <p>Lessons adapted to your level and goals: work, travel, study or everyday life.</p>
-    <div class="grid">
-      <div class="card"><h3>English</h3><p>Conversation, business English and job interview preparation.</p></div>
-      <div class="card"><h3>Spanish</h3><p>Solid foundations and speaking practice for life in the Dominican Republic.</p></div>
-      <div class="card"><h3>French</h3><p>Grammar, writing and speaking, taught by a former French teacher.</p></div>
-      <div class="card"><h3>Haitian Creole</h3><p>To communicate with colleagues, clients or family.</p></div>
-    </div>
-  </div>
-</div>
-
-<section class="white">
+<div class="banner"><div class="ph"><img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=70" alt="Working on a laptop" loading="lazy" onerror="this.remove()"></div>
   <div class="wrap">
+    <span class="eyebrow">Services</span>
+    <h1>Services and training</h1>
+    <p class="lead">Bookkeeping, consulting and project management for businesses, plus hands-on accounting software courses. Everything is done remotely, by video call and screen sharing.</p>
+  </div>
+</div>
+
+<div class="svc" id="bookkeeping"><div class="wrap split">
+  <div class="ph"><img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1000&q=70" alt="Accounting documents and calculator" loading="lazy" onerror="this.remove()"></div>
+  <div>
+    <span class="eyebrow">For businesses</span>
+    <h2>Remote bookkeeping</h2>
+    <p class="lead">I take care of your numbers so you can focus on running your business.</p>
+    <div class="cards">
+      <div class="card"><h3>Monthly bookkeeping</h3><p>Recording transactions and keeping your accounts up to date.</p></div>
+      <div class="card"><h3>Bank reconciliations</h3><p>Matching your statements and fixing discrepancies.</p></div>
+      <div class="card"><h3>Payroll</h3><p>Salaries, deposits and pay adjustments.</p></div>
+      <div class="card"><h3>Cleanup and catch-up</h3><p>Behind on your books? I bring them back up to date.</p></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="svc" id="consulting"><div class="wrap split">
+  <div class="ph"><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1000&q=70" alt="Consulting meeting" loading="lazy" onerror="this.remove()"></div>
+  <div>
+    <span class="eyebrow">Advice</span>
+    <h2>Consulting</h2>
+    <p class="lead">An economist's view on your finances, to help you decide with confidence.</p>
+    <div class="cards">
+      <div class="card"><h3>Financial analysis</h3><p>Understand your numbers, margins and cash flow.</p></div>
+      <div class="card"><h3>Budgeting and planning</h3><p>Realistic budgets and financial goals.</p></div>
+      <div class="card"><h3>Software selection</h3><p>Choose the right accounting platform for your business.</p></div>
+      <div class="card"><h3>Reports for decisions</h3><p>Clear financial and risk reports for management.</p></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="svc" id="projects"><div class="wrap split">
+  <div class="ph"><img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1000&q=70" alt="Project planning" loading="lazy" onerror="this.remove()"></div>
+  <div>
+    <span class="eyebrow">Delivery</span>
+    <h2>Project management</h2>
+    <p class="lead">From idea to delivery: clear goals, organized teams and regular progress updates.</p>
+    <div class="cards">
+      <div class="card"><h3>Planning</h3><p>Goals, scope, timeline and budget defined from the start.</p></div>
+      <div class="card"><h3>Coordination</h3><p>Keeping teams and partners aligned and on schedule.</p></div>
+      <div class="card"><h3>Progress tracking</h3><p>Measurable milestones and regular client updates.</p></div>
+      <div class="card"><h3>Evaluation</h3><p>Results reviewed against goals, with lessons for next time.</p></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="svc" id="training"><div class="wrap split">
+  <div class="ph"><img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&q=70" alt="Online software training" loading="lazy" onerror="this.remove()"></div>
+  <div>
+    <span class="eyebrow">Courses</span>
+    <h2>Accounting software training</h2>
+    <p class="lead">Practical online courses, one-on-one or for your team, using real examples or your own data.</p>
+    <div class="cards">
+      <div class="card"><span class="tag">Intuit</span><h3>QuickBooks Online</h3><p>Setup, bank feeds, invoicing, payroll and reports. Desktop also available.</p></div>
+      <div class="card"><span class="tag">Zoho</span><h3>Zoho Books</h3><p>Chart of accounts, invoicing, payments and inventory.</p></div>
+      <div class="card"><span class="tag">Xero</span><h3>Xero</h3><p>Bank reconciliation, bills, invoices and reporting.</p></div>
+      <div class="card"><span class="tag">Sage</span><h3>Sage</h3><p>Company setup, transactions and financial statements.</p></div>
+      <div class="card"><span class="tag">Oracle</span><h3>NetSuite</h3><p>Navigation, transactions, records and saved searches.</p></div>
+      <div class="card"><span class="tag">Teams</span><h3>Group training</h3><p>Courses for your staff, adapted to your workflow.</p></div>
+    </div>
+  </div>
+</div></div>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow">Process</span>
     <h2>How it works</h2>
     <ol class="steps">
-      <li><h3>First conversation</h3><p>You contact me and we talk about your needs, free of charge.</p></li>
-      <li><h3>Proposal</h3><p>I send you a plan and a price adapted to your situation.</p></li>
-      <li><h3>We get started</h3><p>Lessons or bookkeeping work on the schedule we agree on.</p></li>
+      <li><h3>Free video call</h3><p>We talk about your needs and goals, free of charge.</p></li>
+      <li><h3>Proposal</h3><p>You receive a clear plan and price adapted to your situation.</p></li>
+      <li><h3>We get started</h3><p>Online sessions or project work on the schedule we agree on.</p></li>
     </ol>
-    <div class="actions"><a class="btn btn-main" href="contact.html">Request a quote</a></div>
+    <div class="actions"><a class="btn btn-green" href="contact.html">Request a quote</a></div>
   </div>
 </section>
 </main>
 <footer><div class="wrap">
-<span>© 2026 Économiste Dudys. Santiago de los Caballeros, Dominican Republic.</span>
-<span>Online sessions worldwide</span>
+<a class="brand" href="index.html"><span class="mark">ED</span>Economist Dudys</a>
+<nav aria-label="Footer"><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></nav>
+<span>© 2026 Economist Dudys. 100% remote, serving clients worldwide.</span>
 </div></footer>
 </body>
 </html>

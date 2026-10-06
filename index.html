@@ -3,68 +3,114 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bookkeeping and training | Économiste Dudys</title>
-<meta name="description" content="Économiste Dudys: bookkeeping for small businesses, QuickBooks and Zoho Books training, and language lessons in English, Spanish, French and Haitian Creole.">
+<title>Remote bookkeeping, consulting and software training | Economist Dudys</title>
+<meta name="description" content="Economist Dudys: remote bookkeeping, consulting, project management, and online training in QuickBooks, Zoho Books, Xero, Sage and NetSuite.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header><div class="bar">
-<a class="brand" href="index.html">Économiste <span>Dudys</span></a>
-<nav aria-label="Main menu">
+<a class="brand" href="index.html"><span class="mark">ED</span>Economist <b>Dudys</b></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
+<nav id="nav" aria-label="Main menu">
 <a href="index.html" aria-current="page">Home</a>
 <a href="services.html">Services</a>
 <a href="blog.html">Blog</a>
-<a href="contact.html">Contact</a>
+<a class="nav-cta" href="contact.html">Contact</a>
 </nav></div></header>
 <main>
-<div class="wrap hero">
-  <div>
-    <h1>Clear books. Useful skills.</h1>
-    <p class="lead">I'm an economist and Intuit-certified bookkeeper. I help small businesses keep their accounts in order, and I train people who want to master QuickBooks, Zoho Books or a new language.</p>
-    <div class="actions">
-      <a class="btn btn-main" href="contact.html">Request a quote</a>
-      <a class="btn btn-alt" href="services.html">See training options</a>
+<section class="hero" style="padding:0">
+  <div class="ph"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=70" alt="Laptop showing financial charts" loading="lazy" onerror="this.remove()"></div>
+  <div class="hero-in">
+    <div>
+      <span class="eyebrow">Bookkeeping, consulting and training</span>
+      <h1>Clear books.<br>Smart projects.<br>Real skills.</h1>
+      <p class="lead">I'm an economist, project manager and Intuit-certified bookkeeper. I keep your accounts in order, guide your projects and train you on the accounting software you use, all online, wherever you are.</p>
+      <div class="actions">
+        <a class="btn btn-green" href="contact.html">Book a free call</a>
+        <a class="btn btn-light" href="services.html">Explore services</a>
+      </div>
+    </div>
+    <div class="ledger" aria-label="Services summary">
+      <h2>What I do for you</h2>
+      <div class="row"><b>Bookkeeping</b><span>Monthly books, reconciliations, payroll</span></div>
+      <div class="row"><b>Consulting</b><span>Finance, budgeting, systems</span></div>
+      <div class="row"><b>Project management</b><span>Planning, follow-up, reporting</span></div>
+      <div class="row"><b>Software training</b><span>QuickBooks, Zoho, Xero, Sage, NetSuite</span></div>
+      <div class="total"><b>Format</b><span>Remote and online only</span></div>
     </div>
   </div>
-  <div class="ledger" aria-label="Services summary">
-    <h2>What I do for you</h2>
-    <div class="row"><b>Bookkeeping</b><span>QuickBooks, Zoho Books</span></div>
-    <div class="row"><b>Reconciliations and payroll</b><span>Monthly or one-time</span></div>
-    <div class="row"><b>Software training</b><span>QuickBooks Desktop and Online, Zoho Books</span></div>
-    <div class="row"><b>Language lessons</b><span>English, Spanish, French, Haitian Creole</span></div>
-    <div class="total"><b>Format</b><span>Online or in Santiago</span></div>
-  </div>
-</div>
+</section>
 
-<section class="white">
+<div class="strip"><div class="wrap">
+  <span><b>Intuit</b> certified bookkeeper</span>
+  <span><b>IDB</b> project management training</span>
+  <span><b>5</b> accounting platforms</span>
+  <span><b>100%</b> online</span>
+</div></div>
+
+<section>
   <div class="wrap">
-    <h2>Why work with me</h2>
-    <div class="facts">
-      <div class="fact"><strong>10+ years</strong><p>in finance, project management and administration, including leading a company's finances.</p></div>
-      <div class="fact"><strong>4 languages</strong><p>I work with you in English, Spanish, French or Haitian Creole, whichever suits you best.</p></div>
-      <div class="fact"><strong>Certified</strong><p>Training from Intuit, the International Monetary Fund, the Inter-American Development Bank and Laval University.</p></div>
+    <span class="eyebrow">Services</span>
+    <h2>How I can help your business</h2>
+    <p class="lead">Hand over the work, get expert advice, or learn to do it yourself.</p>
+    <div class="tiles tiles-4">
+      <a class="tile" href="services.html#bookkeeping"><div class="ph"><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=70" alt="Calculator and financial documents" loading="lazy" onerror="this.remove()"></div>
+        <div class="tile-body"><h3>Bookkeeping</h3><p>Accurate, up-to-date books, reconciliations and payroll.</p><span class="more">Learn more →</span></div></a>
+      <a class="tile" href="services.html#consulting"><div class="ph"><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=70" alt="Business consulting meeting" loading="lazy" onerror="this.remove()"></div>
+        <div class="tile-body"><h3>Consulting</h3><p>Financial advice, budgets and the right systems for your business.</p><span class="more">Learn more →</span></div></a>
+      <a class="tile" href="services.html#projects"><div class="ph"><img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=70" alt="Project planning board" loading="lazy" onerror="this.remove()"></div>
+        <div class="tile-body"><h3>Project management</h3><p>Plans, timelines and follow-up to deliver your projects on time.</p><span class="more">Learn more →</span></div></a>
+      <a class="tile" href="services.html#training"><div class="ph"><img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=70" alt="Online software training" loading="lazy" onerror="this.remove()"></div>
+        <div class="tile-body"><h3>Software training</h3><p>QuickBooks, Zoho Books, Xero, Sage and NetSuite courses.</p><span class="more">Learn more →</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--paper)">
+  <div class="wrap split">
+    <div class="ph"><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1000&q=70" alt="Professional working with a client" loading="lazy" onerror="this.remove()"></div>
+    <div>
+      <span class="eyebrow">Why work with me</span>
+      <h2>Experience you can count on</h2>
+      <p class="lead">More than ten years in finance, project management and administration, including leading a company's finances.</p>
+      <ul class="checks">
+        <li>Economics degree and Intuit Bookkeeping Certification</li>
+        <li>Training from the IMF, the Inter-American Development Bank and Laval University</li>
+        <li>Work in English, French, Spanish or Haitian Creole</li>
+        <li>Flexible online sessions that fit your schedule and time zone</li>
+      </ul>
     </div>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <div class="cta">
-      <div>
-        <h2>Let's talk about your needs</h2>
-        <p>A free first conversation to understand what you need.</p>
+    <div class="stats">
+      <div class="stat"><strong>10+</strong><p>years of experience in finance and management</p></div>
+      <div class="stat"><strong>5</strong><p>accounting platforms taught: QuickBooks, Zoho, Xero, Sage, NetSuite</p></div>
+      <div class="stat"><strong>100%</strong><p>remote: get help from anywhere in the world</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="cta"><div class="ph"><img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&q=70" alt="Business handshake" loading="lazy" onerror="this.remove()"></div>
+      <div class="cta-in">
+        <div><h2>Let's talk about your needs</h2><p>A free first video call to understand what you need.</p></div>
+        <a class="btn btn-green" href="contact.html">Get in touch</a>
       </div>
-      <a class="btn" href="contact.html">Get in touch</a>
     </div>
   </div>
 </section>
 </main>
 <footer><div class="wrap">
-<span>© 2026 Économiste Dudys. Santiago de los Caballeros, Dominican Republic.</span>
-<span>Online sessions worldwide</span>
+<a class="brand" href="index.html"><span class="mark">ED</span>Economist Dudys</a>
+<nav aria-label="Footer"><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></nav>
+<span>© 2026 Economist Dudys. 100% remote, serving clients worldwide.</span>
 </div></footer>
 </body>
 </html>
