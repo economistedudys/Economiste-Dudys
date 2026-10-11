@@ -182,3 +182,6 @@ a.cbox:hover{transform:translateY(-3px)}
 .foot-contact a{color:#fff;text-decoration:none}
 .foot-contact a:hover{text-decoration:underline}
 @media (max-width:900px){.cal-embed iframe{height:900px}}
+.cbox-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.cbox-actions a,.cbox-actions button{font:600 .9rem var(--sans);padding:8px 14px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);text-decoration:none;cursor:pointer}
+.cbox-actions a:hover,.cbox-actions button:hover{border-color:var(--green);color:var(--green)}

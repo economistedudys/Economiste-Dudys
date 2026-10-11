@@ -9,7 +9,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.ico" sizes="32x32">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -34,7 +33,8 @@
 <section>
   <div class="wrap">
     <div class="contact-grid">
-      <a class="cbox" href="mailto:contact@economistedudys.com?subject=Quote%20request"><span class="tag">Email</span><strong>contact@economistedudys.com</strong><p>The best way to request a quote.</p></a>
+      <div class="cbox"><span class="tag">Email</span><strong>contact@economistedudys.com</strong><p>The best way to request a quote.</p>
+        <div class="cbox-actions"><a href="mailto:contact@economistedudys.com?subject=Quote%20request">Send an email</a><button type="button" onclick="var b=this;navigator.clipboard.writeText('contact@economistedudys.com').then(function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy email'},2000)})">Copy email</button></div></div>
       <a class="cbox" href="https://wa.me/13659060032" target="_blank" rel="noopener"><span class="tag">Phone and WhatsApp</span><strong>+1 (365) 906-0032</strong><p>Call or message me for quick questions.</p></a>
       <a class="cbox" href="https://calendly.com/makenson-economistedudys/30min" target="_blank" rel="noopener"><span class="tag">Free call</span><strong>Book 30 minutes</strong><p>Pick a time that suits you, in your time zone.</p></a>
     </div>
