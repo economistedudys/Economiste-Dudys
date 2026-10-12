@@ -185,3 +185,11 @@ a.cbox:hover{transform:translateY(-3px)}
 .cbox-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
 .cbox-actions a,.cbox-actions button{font:600 .9rem var(--sans);padding:8px 14px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);text-decoration:none;cursor:pointer}
 .cbox-actions a:hover,.cbox-actions button:hover{border-color:var(--green);color:var(--green)}
+.socials{display:flex;gap:10px;flex-wrap:wrap}
+.socials a{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:#fff;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);transition:background .15s}
+.socials a:hover{background:var(--green);border-color:var(--green)}
+.social-list{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
+.social-list a{display:flex;align-items:center;gap:12px;padding:16px 20px;background:var(--paper);border:1px solid var(--line);border-radius:12px;color:var(--ink);text-decoration:none;font-weight:600}
+.social-list a svg{color:var(--green)}
+.social-list a:hover{border-color:var(--green)}
+@media (max-width:700px){.social-list{grid-template-columns:repeat(2,1fr)}}
