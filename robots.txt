@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://economistedudys.com/sitemap.xml
